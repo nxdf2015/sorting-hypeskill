@@ -187,13 +187,7 @@ public class Data {
         }
     }
 
-    public void save(String nameoutput) {
-        try(FileWriter out = new FileWriter(new File(nameoutput))){
-            //out.write();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+
 }
 
 

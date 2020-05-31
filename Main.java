@@ -38,12 +38,9 @@ public class Main {
 
             }
         }
-        if (nameoutput != null){
-            data.save(nameoutput);
-        }
-        else {
-            data.getData();
-        }
+
+        data.getData();
+
 
 
 
